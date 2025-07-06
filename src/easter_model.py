@@ -190,7 +190,7 @@ def Easter2():
     tensorflow.keras.models.Model(inputs = input_data, outputs = y_pred).summary()
  
     # Defining other training parameters
-    Optimizer = tensorflow.keras.optimizers.Adam(lr = config.LEARNING_RATE)
+    Optimizer = tensorflow.keras.optimizers.Adam(learning_rate = config.LEARNING_RATE)
     
     labels = tensorflow.keras.layers.Input(
         name = 'the_labels', 

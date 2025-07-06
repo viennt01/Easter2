@@ -1,0 +1,2 @@
+
+Character error rate is : 10.040378569034585%

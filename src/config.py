@@ -16,7 +16,7 @@ LONG_LINES_FRACTION = 0.3
 
 # Model training parameters
 BATCH_SIZE = 32
-EPOCHS = 1000
+EPOCHS = 100
 VOCAB_SIZE = 80
 DROPOUT = True
 OUTPUT_SHAPE = 500
@@ -33,4 +33,4 @@ BATCH_NORM_DECAY = 0.997
 # Checkpoints parametes
 CHECKPOINT_PATH = '../weights/EASTER2--{epoch:02d}--{loss:.02f}.hdf5'
 LOGS_DIR = '../logs'
-BEST_MODEL_PATH = "../weights/saved_checkpoint.hdf5"
+BEST_MODEL_PATH = "../weights/EASTER2--100--9.51.hdf5"
